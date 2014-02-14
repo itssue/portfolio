@@ -6,7 +6,7 @@
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-	I added some tweaks here and there, but I'm still working on this. I'm going to add in a navbar-- don't worry!
+	I added some tweaks here and there, but I'm still working on this. I'm going to add in a navbar- don't worry!
 -->
 <html lang="en">
 	<head>
@@ -23,37 +23,22 @@
 		<link href="http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic" rel="stylesheet" type="text/css" />
 		<!-- /Fonts -->
 
-		<!-- Custom styles for this template -->
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- /Bootstrap core CSS -->
 
-		<!-- /Custom styles for this template -->
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<!-- Custom styles for this template -->
 		<link rel="stylesheet" href="css/skel-noscript.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/style-wide.css" />
+		<!-- /Custom styles for this template -->
 
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		
+
 	</head>
-
-<!-- Analytics -->
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-47464049-1', 'itssue.com');
-	  ga('send', 'pageview');
-
-	</script>
-<!-- /Analytics -->
-
 	<body>
-
-		<!-- Nav bar -->
-
-		<!-- /Nav bar -->
 
 		<!-- Header -->
 			<section id="header" class="dark">
@@ -62,11 +47,38 @@
 					<p>I'm a UX designer and I'm all about efficiency.</a></p>
 				</header>
 				<footer>
-					<a href="#about" class="button scrolly">Tell me more</a>
+					<a href="#nav" class="button scrolly">Tell me more</a>
 				</footer>
 			</section>
 		<!-- /Header -->
-			
+		
+		<!-- Navbar -->
+	    <div id="nav" data-spy="affix" class="navbar navbar-default">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="#">SUE LEE</a>
+	        </div>
+	        <!--.nav-collapse -->
+	        <div class="navbar-collapse collapse">
+	          <ul class="nav navbar-nav navbar-right">
+	            <li><a href="#">Home</a></li>
+	            <li><a href="#about">About</a></li>
+	            <li><a href="#skills">Skills</a></li>
+	            <li><a href="#resume">Resume</a></li>
+	            <li><a href="#portfolio">Portfolio</a></li>
+	            <li><a href="#contact">Contact</a></li>
+	          </ul>
+	        </div><!--/.nav-collapse -->
+	      </div>
+	    </div>
+		<!-- /Nav bar -->
+
 		<!-- First -->
 			<section id="about" class="main">
 				<header>
@@ -75,11 +87,11 @@
 						<p>I'm a girl from LA who's been living in New York for eight years. I laugh all the time. I'm always hungry. I only learned how to ride a bike in 2011. And Antarctica is the only continent missing in my passport.</p>
 					</div>
 				</header>
-				<div class="content dark style1 featured">
+				<div class="content dark style1 featured" id="skills">
 					<div class="container">
 						<div class="row">
 							<div class="4u">
-								<section id="skills">
+								<section id="skills1">
 									<span class="feature-icon"><span class="fa fa-crop"></span></span>
 									<header>
 										<h3>Design</h3>
@@ -150,11 +162,11 @@
 							</div>
 						</div>
 				</header>
-				<div class="content dark style2">
+				<div class="content dark style2" id="portfolio">
 					<div class="container">
 						<div class="row">
 							<div class="4u">
-								<section id="portfolio">
+								<section id="portfolio1">
 									<h4>Portfolio</h4>
 									<!-- <p>Click on the images to see what I can do or download the pdf below.</p> -->
 									<p>I was doing UX before I even heard of the term. Websites, mobile apps, emails, and even a conference program. </p>
@@ -188,10 +200,6 @@
 					</div>
 				</div>
 			</section>
-			
-		<!-- Third -->
-<!-- 			<section id="third" class="main">
-			</section> -->
 		
 		
 		<!-- Fourth -->
@@ -199,7 +207,7 @@
 				<header>
 					<div class="container">
 						<h2>Contact</h2>
-						<p>Send me an email at <a href="mailto:its.sue@gmail.com?Subject=Hello!">its.sue@gmail.com</a>. I'll get back to you soon. Promise.</p>
+						<p>Send me an email at its.sue@gmail.com. I'll get back to you soon. Promise.</p>
 					</div>
 					<div class="row">
 							<div class="12u">
@@ -258,6 +266,8 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/add.min.js"></script>
 		<!-- /JavaScript -->
 
 	</body>
