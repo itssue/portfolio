@@ -951,3 +951,15 @@ blockquote
 				{
 					box-shadow: inset 0 0 0 1px #d6d6d6;
 				}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  #skills1, #resume, #portfolio1, #contact {
+    padding-left: 0;
+    padding-right: 0;
+  }
