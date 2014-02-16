@@ -206,9 +206,9 @@
 				<header>
 					<div class="container">
 						<h2>Contact</h2>
-						<p>Send me an email at its.sue@gmail.com. I'll get back to you soon. Promise.</p>
+						<p>Fill out the form below or send me an email at its.sue@gmail.com. I'll get back to you soon. Promise.<br /><br/></p>
 					</div>
-					<div class="row">
+					<!-- <div class="row">
 							<div class="12u">
 								<footer>
 									<ul class="actions">
@@ -216,32 +216,37 @@
 									</ul>
 								</footer>
 							</div>
-						</div>
-				</header>
-    			
-    			
-				<!-- <div class="content style4 featured">
+						</div> -->
+				
+				<div class="content style4 featured">
 					<div class="container small">
-						<form method="post" action="http://www.imstillhungry.com/contactform.php">
+						<form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://itssue.wufoo.com/forms/z1xqx0tg0maszhx/#public">
 							<div class="row half">
-								<div class="6u"><input name="name" class="text" placeholder="Name" /></div>
-								<div class="6u"><input name="email" class="text" placeholder="Email" /></div>
+								<div class="12u"><input id="Field2" name="Field2" type="email" spellcheck="false" class="field text medium" placeholder="Email" maxlength="255" tabindex="1" /></div>
 							</div>
 							<div class="row half">
-								<div class="12u"><textarea name="message" placeholder="Message"></textarea></div>
+								<div class="12u"><textarea id="Field3" name="Field3" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="2" placeholder="Message"></textarea></div>
 							</div>
 							<div class="row">
 								<div class="12u">
 									<ul class="actions">
-										<li><input id="submit" name="submit" type="submit" class="button" value="Send Message" /></li>
+										<li><input id="saveForm" name="saveForm" class="button" 
+    type="submit" value="Send Message"
+ /></li>
 										<li><input type="reset" class="button alt" value="Clear Form" /></li>
+										<li class="hide">
+<label for="comment">Do Not Fill This Out</label>
+<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+<input type="hidden" id="idstamp" name="idstamp" value="+kAziC66ZyCWNsBIPzhLQriO4k61Spm+QnaJdvueHA8=" />
+</li>
 									</ul>
 								</div>
 							</div>
 						</form>
 					</div>
 				</div>
-			</section> -->
+				</header>
+			</section>
 			
 		<!-- Footer -->
 			<section id="footer">
@@ -267,6 +272,7 @@
 		<script src="js/init.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/add.min.js"></script>
+		<script src="js/wufoo.js"></script>
 		<!-- /JavaScript -->
 
 	</body>
