@@ -493,79 +493,6 @@ footer
 			.dark form ::-moz-placeholder { color: rgba(255,255,255,0.85) !important; }
 			.dark form :-ms-input-placeholder { color: rgba(255,255,255,0.85) !important; }
 			
-	/* Tables */
-	
-		table
-		{
-			width: 100%;
-		}
-		
-			table.default
-			{
-				width: 100%;
-				border-collapse: collapse;
-			}
-
-				table.default tbody
-				{
-				}
-
-				table.default tbody tr
-				{
-					border: solid 1px #e6e6e6;
-				}
-			
-				table.default tbody tr:nth-child(2n+2)
-				{
-					background: #f8f8f8;
-				}
-				
-				table.default td
-				{
-					padding: 0.5em 1em 0.5em 1em;
-				}
-				
-				table.default th
-				{
-					text-align: left;
-					padding: 0.5em 1em 1em 1em;
-				}
-			
-				table.default thead
-				{
-				}
-
-				table.default tfoot
-				{
-				}
-				
-					table.default tfoot td
-					{
-						padding-top: 1em;
-					}
-				
-				table.default tbody
-				{
-				}
-
-			.dark table.default
-			{
-			}
-
-				.dark table.default tbody
-				{
-				}
-			
-					.dark table.default tbody tr
-					{
-						border-color: rgba(255,255,255,0.5);
-					}
-				
-					.dark table.default tbody tr:nth-child(2n+2)
-					{
-						background: rgba(255,255,255,0.1);
-					}
-	
 	/* Buttons */
 		
 		.button
@@ -941,8 +868,9 @@ footer
 
 @media (min-width: 768px) {
 
-  /* Remove the edge padding needed for mobile */
-  #skills1, #resume, #portfolio1, #contact {
-    padding-left: 0;
-    padding-right: 0;
-  }
+	/* Remove the edge padding needed for mobile */
+	#skills1, #resume, #portfolio1, #contact {
+	margin-left: 0;
+	padding-left: 0;
+	}
+}
