@@ -15,7 +15,7 @@
 	position: fixed; 
 	top: 0; 
 	width: 100%;
-	z-index:9999; 
+	z-index:9; 
 }
 
 /* Site */
@@ -51,7 +51,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 {
 	color: #fff;
 }
-		
+
+
+
 strong, b
 {
 	font-weight: 400;
@@ -790,6 +792,13 @@ footer
 			{
 			}
 
+			.main > .content h2
+			{
+				font-size: 2.25em;
+				font-weight: 100;
+				line-height: 1em;
+			}
+
 			.main > .content h3
 			{
 				font-size: 1.5em;
@@ -872,5 +881,12 @@ footer
 	#skills1, #resume, #portfolio1, #contact {
 	margin-left: 0;
 	padding-left: 0;
+	}
+
+	.navbar-fixed-top { 
+	position: top; 
+	top: 0; 
+	width: 100%;
+	z-index:9; 
 	}
 }
