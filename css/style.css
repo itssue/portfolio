@@ -753,6 +753,11 @@ footer
 		margin: 0;
 	}
 	
+	.main a:hover
+	{
+		text-decoration: none;
+	} 
+
 		.main > header
 		{
 			background: #fff;
