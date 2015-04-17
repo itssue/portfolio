@@ -69,6 +69,10 @@
 	// jQuery
 		jQuery(function() {
 
+			// $('.nav a').click(function(){
+			// 	alert('1');
+			// })
+
 			var $window = $(window);
 
 			// Scrolly links
