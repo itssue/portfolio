@@ -3,7 +3,7 @@
 ITSSUE.COM 
 (No, not tissue or issue. Read it again.)
 
-I'm a UX designer and this is my portfolio. 
+I'm a UX designer and this is my portfolio from 2014. Look at itssue.com for the latest.
 
 I took the code for Tessellate 1.0 by HTML5 UP (html5up.net | @n33co) and tweaked it to fit my needs. 
 
